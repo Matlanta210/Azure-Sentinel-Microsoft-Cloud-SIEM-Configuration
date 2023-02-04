@@ -23,7 +23,7 @@ Below is the Project Diagram we will be using curtesy of Josh Madakor
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-- <b>VMware Virtual Machine</b>
+- <b>Azure Virtual Machine</b>
 
 <br />
 <br />
