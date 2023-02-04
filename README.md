@@ -6,13 +6,19 @@ In this lab, I configured and set up a SIEM using Azure Sentinel (Microsoft clou
 
 
 
-### [Here Is The Full Walk Through and YouTube Demonstration](https://www.youtube.com/watch?v=9BhqpBDn3uw)
+
+### In the first part of our home lab/SIEM project, we will configure a virtual machine on Azure with disabled firewalls to make it exposed to the internet. We will then configure Log Analytics where the geo data from the attacks on our virtual machine will be tracked and then sent over to our SIEM that will then eventually map the geo location of each attack in Azure. To conclude the first part of the lab, we will view event viewer to see the information on the successful and failed log in attempts from our RDP connection. The 2nd part of our lab we will be using RDP that will transmit the data from the attackers and then send it over to our 3rd party API that will track the latitude and longitude of the attacks and will display them in our Azure Sentinel/SIEM.
+
+
+### [Here Is The Full Walk Through and YouTube Demonstration on Part 1 of this lab](https://www.youtube.com/watch?v=4rJB0yv6U-o)
+
+
  
 
-Below is the Network Diagram we will be using curtesy of Josh Madakor
+Below is the Project Diagram we will be using curtesy of Josh Madakor
 
 <br />
-<img src="https://imgur.com/hrposQ6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/HfJsrmy.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 
 <h2>Environments Used </h2>
 
